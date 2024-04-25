@@ -10,9 +10,9 @@ Offer detailed documentation of population stratification on a local scale whene
 Development of the AGVD was sparked by the increased amount of genomic research being conducted in Africa, and initiated by the Human Heredity and Health in Africa’s (H3Africa) Bioinformatics Network (H3ABioNet). 
 Development of the AGVD was driven by H3ABioNet’s Databases and Resources Work Package and led by the members of the African Genome Variation Database project. 
 
-AGVD can be accessed at the following webpage: https://agvd.h3abionet.org/
 
-A comprehensive list of contributors can be found in the [contributors](contributors.md) page.
+ - AGVD is accessible at [agvd.h3abionet.org](https://agvd.h3abionet.org/)
+ - A comprehensive list of contributors can be found on [this page](contributors.md).
+ - [Release notes](releases.md)
+
 H3ABioNet is funded by NIH Common Fund Award / NHGRI Grant Number U41HG006941.
-
-[Release notes](releases.md)
