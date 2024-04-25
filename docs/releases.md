@@ -1,4 +1,4 @@
-## Release information:
+## Releases
 
 ### AGVD version 1.0 (Beta)
 
@@ -8,15 +8,14 @@ Features:
  - Display frequencies in histogram
  - Map of countries where variant was observed
 
-
 Genotypes: 
  - Joint-called callset 24A 
 
-
 Annotations:
- - Externally fetched cellbase annotations
+ - Externally fetched [cellbase][ref1] annotations.
  - Two sample clustering approaches
    - Manual assignment of samples to one of 6 African regions based on the sample's country 
    - Computational assignment samples countries to one of 5 clusters using K-means
 
 
+[ref1]: http://nar.oxfordjournals.org/content/40/W1/W609.short
