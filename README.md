@@ -1,2 +1,2 @@
 # agvd-docs
-Documentation for AGVD users
+This site is documentation for the AGVD (African Genomic Variation Database) frontend.
