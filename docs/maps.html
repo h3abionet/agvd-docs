@@ -9,8 +9,13 @@
         }
         #map2 {
             height: 600px;
-            width 300px;
+            width: 300px;    
         }
+        #map3 {
+            height: 600px;
+            width 300px;    
+        }
+
     </style>
 </head>
 <body>
@@ -29,6 +34,17 @@
             attribution: 'Tiles &copy: <a href="https://www.maptilesapi.com/">MapTiles API</a>, Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
             maxZoom: 19
         }).addTo(map);
+
+        var map3 = L.map('map3').setView([0, 0], 2);
+
+
+        L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.{ext}', {
+	        minZoom: 0, 
+	        maxZoom: 18,
+	        attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	        ext: 'png'
+        }).addTo(map3);
+
     </script>
 </body>
 

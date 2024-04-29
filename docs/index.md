@@ -20,4 +20,4 @@ Development of the AGVD was driven by H3ABioNet’s Databases and Resources Work
 
 H3ABioNet is funded by NIH Common Fund Award / NHGRI Grant Number U41HG006941.
 
-<footer><p>{{ site.time }}</p></footer>
+<footer><p>Documentation was build at {{ site.time }}</p></footer>
