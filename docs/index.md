@@ -1,22 +1,34 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+
+
 ### Introduction
 
-The African Genome Variation Database (AGVD) stands as an invaluable online resource designed to delve into genomic variation data within diverse African populations. Aligned with H3ABioNet, the Pan African Bioinformatics Network for the H3Africa consortium, the AGVD serves as a central repository, housing a wealth of genetic data sourced from African populations. This encompasses information derived from targeted, exome, and full genome sequencing, as well as genotyping by arrays.
-A key component of the H3Africa projects, the AGVD extends its inclusivity by incorporating African genetic data from various other projects, fostering an environment of open access. The database offers accessibility at multiple levels, ranging from individual genotypes to minor allele frequencies (MAF) for specific populations. While some data remains private, safeguarded behind password protection to ensure eligibility, it is still searchable and analyzable within the context of the openly accessible data.
-Researchers focusing on African populations or diseases find immense value in the AGVD, which not only provides search and visualization capabilities for African genetic data but also contributes significantly to the collective knowledge base in genomics research on the African continent. The Database’s primary objectives are to:
-Provide open access to genetic data from African populations, including targeted, exome, and full genome sequencing, as well as genotyping by arrays.
-Offer searching and visualization capabilities, enabling researchers to explore genetic data by study, ethnic group, and specific variants. It provides insights into the clinical relevance of SNPs and links to external sources for further annotation. Additionally, users can retrieve minor allele frequencies (MAFs) and generate sequence data for given samples within specified regions.
-Offer detailed documentation of population stratification on a local scale whenever feasible, empowering users to explore individual variants using the Beacon. 
+Despite having the highest genomic diversity of any continent, African populations are the least studied in the context of human genetic variation. 
 
-Development of the AGVD was sparked by the increased amount of genomic research being conducted in Africa, and initiated by the Human Heredity and Health in Africa’s (H3Africa) Bioinformatics Network (H3ABioNet). 
-Development of the AGVD was driven by H3ABioNet’s Databases and Resources Work Package and led by the members of the African Genome Variation Database project. 
+The African Genome Variation Database (AGVD) aims to maximize the utility of available variant data gathered from studies of African cohorts and other cohorts with African-ancestry. The initial release reports allele frequencies from a joint called set of ~4000 samples. Future releases will incorporate genotypes from targeted, exome, and additional full genome sequencing, as well as genotyping by arrays. 
 
+We expect researchers focusing on African populations or diseases to find novel value in the AGVD as a resource, not only through the search and visualization features but also from its focus on presenting African data. 
+
+AGVD's primary objectives are to:
+ - Maximize benefit from and access to variant frequencies from African populations.
+ - Provide search and visualization capabilities, enabling researchers to explore genetic data by study, ethnic group, and specific variants. 
+ - Provide insights into the clinical relevance of SNPs by presenting annotations from internal and external sources. 
+ - Allow more targeted search in terms of allele frequencies, eg rare disease searches.
+ - Promote interoperability with other projects by adopting GA4GH standards such as Beacons, VRS, and Passport
+
+Development of the AGVD was funded by H3ABioNet, a project within the H3Africa Consortium. 
 
  - AGVD is accessible at [agvd.h3abionet.org](https://agvd.h3abionet.org/)
  - A comprehensive list of contributors can be found on [this page](contributors.md).
  - [Release notes](releases.md)
- - [Sampling locations](maps.html)
+ - [Sampling locations](map.md)
  
 
 H3ABioNet is funded by NIH Common Fund Award / NHGRI Grant Number U41HG006941.
 
-<footer><p>Documentation was build at {{ site.time }}</p></footer>
+<footer><p><i>this documentation was build at {{ site.time }}</i></p></footer>
