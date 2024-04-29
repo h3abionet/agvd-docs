@@ -1,7 +1,7 @@
 <html>
 <!-- leaflet map of Africa -->
 <head>
-    <title>Leaflet Map of Africa</title>
+    <title>Source locations of samples within AGVD</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
         #map {
@@ -13,16 +13,18 @@
     <div id="map"></div>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-        var map = L.map('map').setView([0, 0], 2);
+        var map = L.map('map').setView([0, 20], 3);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19
+            maxZoom: 10
         }).addTo(map);
+
+        L.marker([0, 20]).addTo(map)
+            .bindPopup('Africa')
+            .openPopup();
     </script>
 
+    The AGVD frequencies reported are calculated from a joint called high coverage set of ~4000 samples. The countries of origin of these samples and the projects that made them available are illustrated above. A more detailed summary of the samples and their source projects can be found [here](summaries.md).
 
-
-    Development of the AGVD was sparked by the increased amount of genomic research being conducted in Africa, and initiated by the Human Heredity and Health in Africa’s (H3Africa) Bioinformatics Network (H3ABioNet). 
-Development of the AGVD was driven by H3ABioNet’s Databases and Resources Work Package and led by the members of the African Genome Variation Database project.
 </body>
 
 
