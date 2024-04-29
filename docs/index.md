@@ -14,7 +14,6 @@ Development of the AGVD was driven by H3ABioNet’s Databases and Resources Work
  - AGVD is accessible at [agvd.h3abionet.org](https://agvd.h3abionet.org/)
  - A comprehensive list of contributors can be found on [this page](contributors.md).
  - [Release notes](releases.md)
- - [Sampling locations](map.md)
  - [Sampling locations](maps.html)
  
 
