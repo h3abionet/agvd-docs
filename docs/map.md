@@ -18,6 +18,11 @@
             maxZoom: 19
         }).addTo(map);
     </script>
+
+
+
+    Development of the AGVD was sparked by the increased amount of genomic research being conducted in Africa, and initiated by the Human Heredity and Health in Africa’s (H3Africa) Bioinformatics Network (H3ABioNet). 
+Development of the AGVD was driven by H3ABioNet’s Databases and Resources Work Package and led by the members of the African Genome Variation Database project.
 </body>
 
 
