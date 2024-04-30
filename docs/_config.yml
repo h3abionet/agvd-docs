@@ -51,3 +51,9 @@ theme: minima
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Silence the SASS deprecation warning 
+# https://github.com/jekyll/minima/issues/709
+sass:
+  quiet_deps: true
