@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: Home
+title: About
 heading: About
 permalink: /
 ---
