@@ -1,10 +1,16 @@
-## Releases
+---
 
-### AGVD version 1.0 (Beta)
+layout: page
+title: Releases
+heading: Dataset releases and features
+permalink: /releases/
+---
 
-Release Date:	2024-04-29 
+----
+#### 2024-04-29
+
 Features:
- - Search by MAF, Gene name, region, variant IDs
+ - Search by MAF, gene name, region, variant ID
  - Display frequencies in histogram
  - Map of countries where variant was observed
 
@@ -12,10 +18,11 @@ Genotypes:
  - Joint-called callset 24A 
 
 Annotations:
- - Externally fetched [cellbase][ref1] annotations.
+ - Externally fetched Cellbase<sup>[\[1\]][ref1]</sup> annotations.
  - Two sample clustering approaches
    - Manual assignment of samples to one of 6 African regions based on the sample's country 
    - Computational assignment samples countries to one of 5 clusters using K-means
 
+----
 
 [ref1]: http://nar.oxfordjournals.org/content/40/W1/W609.short

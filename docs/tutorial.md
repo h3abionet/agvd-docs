@@ -1,5 +1,12 @@
+---
 
-African Genome Variation Database Tutorial
+layout: page
+title: Tutorial
+heading: AGVD tutorial
+permalink: /tutorial/
+---
+
+# African Genome Variation Database Tutorial
 
 Contents
 Introduction	1

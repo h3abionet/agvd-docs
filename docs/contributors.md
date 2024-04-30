@@ -1,3 +1,8 @@
+---
+
+layout: page
+---
+
 ### Contributors
 
 AGVD was developed by members of the H3ABioNet African Genome Variation Database Project. 
