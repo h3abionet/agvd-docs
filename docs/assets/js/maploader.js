@@ -19,7 +19,7 @@ function loadMapData() {
     // }).addTo(map);
 
     // Load TSV data
-    d3.tsv("../assets/mapdata.tsv").then(function(data) {
+    d3.tsv("assets/mapdata.tsv").then(function(data) {
         data.forEach(function(d) {
             // Extract data
             var country = d.Country;
