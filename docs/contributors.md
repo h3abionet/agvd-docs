@@ -8,8 +8,9 @@ layout: page
 AGVD was developed by members of the H3ABioNet African Genome Variation Database Project. 
 
 Members include: 
- - Ayton Meintjes (project lead)
  - Nicola Mulder (principal investigator)
+ 
+ - Ayton Meintjes (project lead)
  - Wilson Mudaki
  - Chaimae Samtal
  - Mamana Mbiyavanga

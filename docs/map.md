@@ -21,7 +21,7 @@ permalink: /map/
     <div id="map"></div>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-        var map = L.map('map').setView([0, 0], 2);
+        var map = L.map('map').setView([0, 20], 3);
         L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.{ext}', {
 	        minZoom: 2, 
 	        maxZoom: 6,
