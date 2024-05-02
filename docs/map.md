@@ -21,39 +21,9 @@ permalink: /map/
     <div id="map"></div>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script>
-        var map = L.map('map').setView([0, 20], 3);
-        L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.{ext}', {
-	        minZoom: 2, 
-	        maxZoom: 6,
-	        attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-	        ext: 'png'
-        }).addTo(map);
+    <script src="/assets/js/maploader.js" defer></script>
 
 
-        // Load TSV data
-        d3.tsv("/assets/mapdata.tsv").then(function(data) {
-            data.forEach(function(d) {
-                // Extract data
-                var country = d.Country;
-                var project = d.Project;
-                var latitude = parseFloat(d.Latitude);
-                var longitude = parseFloat(d.Longitude);
-                var sampleCount = parseInt(d.SampleCount);
-
-                // Create marker
-                var marker = L.marker([latitude, longitude]).addTo(map);
-
-                // Add popup to marker with project and sample count information
-                marker.bindPopup("<b>Project:</b> " + project + "<br><b>Country:</b> " + country + "<br><b>Sample Count:</b> " + sampleCount);
-            });
-        }).catch(function(error) {
-            // Handle error if any
-            console.log("Error loading TSV data:", error);
-        });
-
-
-    </script>
     The AGVD frequencies reported are calculated from a joint-called high coverage set of ~4000 samples from various projects both public and restricted. The samples' countries of origin and the projects that made them available are illustrated above. A more detailed summary of the samples and their source projects can be found <a href="summaries.html">here</a>.
 </body>
 </html>
