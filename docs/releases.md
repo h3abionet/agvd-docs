@@ -3,7 +3,7 @@
 layout: page
 title: Releases
 heading: Dataset releases and features
-permalink: /releases/
+# permalink: /releases/
 ---
 
 ----

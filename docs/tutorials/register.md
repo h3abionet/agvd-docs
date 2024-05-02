@@ -3,6 +3,6 @@
 layout: page
 # title: Registering
 heading: Registering
-permalink: /tutorials/registering
+# permalink: /tutorials/registering
 ---
 
