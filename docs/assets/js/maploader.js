@@ -28,11 +28,22 @@ function loadMapData() {
             var longitude = parseFloat(d.Longitude);
             var sampleCount = parseInt(d.SampleCount);
 
-            // Create marker
-            var marker = L.marker([latitude, longitude]).addTo(map);
+            // var radius = sampleCount/10;
+            var radius = Math.log10(sampleCount)*5;
+
+            // Create circle marker
+            var marker = L.circleMarker([latitude, longitude], {
+                radius: radius, // You can adjust the radius of the circle marker
+                color: 'blue', // Color of the marker border
+                fillColor: '#33f', // Fill color of the marker
+                fillOpacity: 0.5 // Opacity of the marker fill
+            }).addTo(map);
 
             // Add popup to marker with project and sample count information
-            marker.bindPopup("<b>Project:</b> " + project + "<br><b>Country:</b> " + country + "<br><b>Sample Count:</b> " + sampleCount);
+            var details = `<b>Project: ${project}</b><br>
+            Country: ${country}
+            <br>Sample count: ${sampleCount}`;
+            marker.bindPopup(details);
         });
     }).catch(function(error) {
         // Handle error if any
