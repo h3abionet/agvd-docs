@@ -1,1 +1,5 @@
 blank/**
+
+.direnv/
+.envrc
+notebooks/.ipynb_checkpoints/
