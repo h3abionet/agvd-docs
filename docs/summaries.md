@@ -6,13 +6,29 @@ heading: Sample Info
 # permalink: /summaries/
 ---
 
-| Project   |   SampleID |   Gender |   EthnolinguisticGroup |   Country |   Continent |   AncestralContinent |   PI |   FamilyID |   sourcefile |   Project-PI |   AGVD_PERMITTED |   NON_CASES |   Release |
-|:----------|-----------:|---------:|-----------------------:|----------:|------------:|---------------------:|-----:|-----------:|-------------:|-------------:|-----------------:|------------:|----------:|
-| 54gene    |        449 |      449 |                    449 |       449 |         449 |                  449 |  449 |        449 |          449 |          449 |              449 |         449 |       449 |
-| AWI-Gen   |        100 |      100 |                    100 |       100 |         100 |                  100 |  100 |        100 |          100 |          100 |              100 |         100 |       100 |
-| EGP       |         10 |       10 |                     10 |        10 |          10 |                   10 |   10 |         10 |           10 |           10 |               10 |          10 |        10 |
-| GAPW      |        180 |      180 |                    180 |       180 |         180 |                  180 |  180 |        180 |          180 |          180 |              180 |         180 |       180 |
-| HGDP      |        114 |      114 |                    114 |       114 |         114 |                  114 |  114 |        114 |          114 |          114 |              114 |         114 |       114 |
-| KGP       |        661 |      661 |                    661 |       661 |         661 |                  661 |  661 |        661 |          661 |          661 |              661 |         661 |       661 |
-| SAALS     |        105 |      105 |                    105 |       105 |         105 |                  105 |  105 |        105 |          105 |          105 |              105 |         105 |       105 |
-| SGDP      |         39 |       39 |                     39 |        39 |          39 |                   39 |   39 |         39 |           39 |           39 |               39 |          39 |        39 |
+
+Count of samples with African ancestry
+
+| Country                  |   Project |
+|:-------------------------|----------:|
+| Algeria                  |        28 |
+| Barbados                 |        96 |
+| Botswana                 |        54 |
+| Burkina Faso             |        33 |
+| Cameroon                 |        24 |
+| Central African Republic |        26 |
+| DRC                      |        13 |
+| Egypt                    |        10 |
+| Gambia                   |       115 |
+| Ghana                    |        26 |
+| Guinea                   |        20 |
+| Kenya                    |       108 |
+| Namibia                  |         7 |
+| Nigeria                  |       727 |
+| Senegal                  |         2 |
+| Sierra Leone             |        87 |
+| South Africa             |       207 |
+| Sudan                    |         2 |
+| Tanzania                 |        10 |
+| United States            |        61 |
+| Western Sahara           |         2 |
