@@ -9,7 +9,7 @@ heading: Sample Info
 
 Count of samples with African ancestry
 
-| Country                  |   Project |
+| Country                  |     Count |
 |:-------------------------|----------:|
 | Algeria                  |        28 |
 | Barbados                 |        96 |
