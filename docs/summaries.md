@@ -6,8 +6,7 @@ heading: Sample Info
 # permalink: /summaries/
 ---
 
-
-Count of samples with African ancestry
+## Count of samples with African ancestry
 
 | Country                  |     Count |
 |:-------------------------|----------:|
