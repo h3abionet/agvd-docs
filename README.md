@@ -10,6 +10,27 @@ This site is documentation for the AGVD (African Genomic Variation Database) fro
  - [Customizing leaflet](https://leafletjs.com/reference.html)
 
 
+### setup on a new machine (Ubuntu in this case) WIP
+
+```bash
+sudo apt-get install ruby-full build-essential zlib1g-dev
+
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+bundle install 
+
+# if `bundle install` fails
+# run `gem install <packagename>` on each gem with an error
+
+
+# serve locally
+bundle exec jekyll serve
+
+```
+
 ### Overriding theme defaults
 
 ```bash 
