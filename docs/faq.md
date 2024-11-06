@@ -17,7 +17,7 @@ Only the cohorts considered to be predominantly of African ancestry were used to
 - Try searching by location (e.g. 20:300000-400000)
 - If the variant is still not found this could be due to:
   - It having been filtered out in the joint calling
-  - The variant being ref/ref for all the samples       
+  - The variant being REF/REF for all of the samples       
 
 
 ----
