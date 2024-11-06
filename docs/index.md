@@ -1,8 +1,8 @@
 ---
 
 layout: page
-title: About
-heading: About
+title: Home
+heading: 
 permalink: /
 ---
 
@@ -21,16 +21,3 @@ AGVD's primary objectives are to:
 
 
 The initial release of AGVD reports allele frequencies from a joint called set of ~4000 samples. Future releases will incorporate genotypes from targeted, exome, and additional full genome sequencing, as well as genotyping by arrays. 
-
-
-### Funding and contributors
-
-Development of the AGVD was funded by [H3ABioNet](https://www.h3abionet.org/), a project within the H3Africa Consortium. 
-
-
-### Links
-
- - A comprehensive list of contributors can be found on [this page](contributors).
- - AGVD is accessible at [agvd.h3abionet.org](https://agvd.h3abionet.org/)
- - [Releases](releases)
- - [Map](map)
