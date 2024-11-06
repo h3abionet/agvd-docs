@@ -8,4 +8,5 @@ heading: Tutorials
 
 
  - [Registering](/tutorials/registering.pdf)
+ - [Searching](/tutorials/searching.pdf)
 
