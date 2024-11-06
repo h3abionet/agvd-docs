@@ -32,10 +32,10 @@ Members include:
 
 Development of the AGVD was funded by [H3ABioNet](https://www.h3abionet.org/), a project within the H3Africa Consortium. 
 
+Samples were provided by the H3Africa Consortium, AWI-Gen, and The Egyptian Genome Project
 
 ### Links
 
- - A comprehensive list of contributors can be found on [this page](contributors).
  - AGVD is accessible at [agvd.h3abionet.org](https://agvd.h3abionet.org/)
  - [Releases](releases)
  - [Map](map)
