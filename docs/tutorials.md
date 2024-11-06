@@ -7,4 +7,5 @@ heading: Tutorials
 ---
 
 
- - [Registering](/tutorials/registering.md)
+ - [Registering](/tutorials/registering.pdf)
+
