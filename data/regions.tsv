@@ -1,0 +1,72 @@
+# 2024-11-04
+# These allocations were take from the AfPO docs 
+# https://docs.google.com/document/d/10Nn_mSBTaV8a92xjCElMAXkZ4y5ZXl_2/edit
+# Central African
+# Angola / Cameroon / Central African Republic / Chad / Congo / Democratic Republic of the Congo / Gabon / Zambia
+# Eastern African
+# Burundi / Comoros / Djibouti / Eritrea / Ethiopia / Kenya / Madagascar / Malawi / Mauritius / Mayotte / Mozambique / Rwanda / La Réunion / Seychelles / Somalia / South Sudan / Sudan / Uganda / United Republic of Tanzania / Zimbabwe
+# Northern African
+# Algeria / Egypt / Libya / Mauritania / Morocco / Tunisia / Western Sahara
+# Southern African
+# Botswana / Eswatini / Lesotho / Namibia / South Africa
+# Western African
+# Benin / Burkina Faso / Cabo Verde / Côte d'Ivoire / Equatorial Guinea / Gambia / Ghana / Guinea / Guinea-Bissau / Liberia / Mali / Niger / Nigeria / Saint Helena / Sao Tome and Principe / Senegal / Sierra Leone / Togo
+REGION  COUNTRY
+Central African Angola
+Central African Cameroon
+Central African Central African Republic
+Central African Chad
+Central African Congo
+Central African Democratic Republic of the Congo
+Central African Gabon
+Central African Zambia
+Eastern African Burundi
+Eastern African Comoros
+Eastern African Djibouti
+Eastern African Eritrea
+Eastern African Ethiopia
+Eastern African Kenya
+Eastern African Madagascar
+Eastern African Malawi
+Eastern African Mauritius
+Eastern African Mayotte
+Eastern African Mozambique
+Eastern African Rwanda
+Eastern African La Réunion
+Eastern African Seychelles
+Eastern African Somalia
+Eastern African South Sudan
+Eastern African Sudan
+Eastern African Uganda
+Eastern African United Republic of Tanzania
+Eastern African Zimbabwe
+Northern African        Algeria
+Northern African        Egypt
+Northern African        Libya
+Northern African        Mauritania
+Northern African        Morocco
+Northern African        Tunisia
+Northern African        Western Sahara
+Southern African        Botswana
+Southern African        Eswatini
+Southern African        Lesotho
+Southern African        Namibia
+Southern African        South Africa
+Western African Benin
+Western African Burkina Faso
+Western African Cabo Verde
+Western African Côte d'Ivoire
+Western African Equatorial Guinea
+Western African Gambia
+Western African Ghana
+Western African Guinea
+Western African Guinea-Bissau
+Western African Liberia
+Western African Mali
+Western African Niger
+Western African Nigeria
+Western African Saint Helena
+Western African Sao Tome and Principe
+Western African Senegal
+Western African Sierra Leone
+Western African Togo
