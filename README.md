@@ -32,6 +32,19 @@ bundle exec jekyll serve
 
 ```
 
+## Tutorials
+Because the tutorials will be updated frequently, we're going edit in Google docs. 
+The steps are:
+1. edit the google doc
+2. download as pdf
+3. copy the pdf to ./docs/tutorials (and rename to short name)
+
+Current tutorials are:
+ - [Registering](https://docs.google.com/document/d/1ny2-b-bBUfDJVUTYhIz8yodpiFJMa_g0/edit)
+ - [Searching](https://docs.google.com/document/d/11VhAVEPbm2XW04ooc2Hk881-85AVSnVw/edit)
+
+[Full documentation](https://docs.google.com/document/d/197wa3ipdHA8Q_ZU4y2jEHBzFctg8GrXO/edit)
+
 ### Overriding theme defaults
 
 ```bash 
