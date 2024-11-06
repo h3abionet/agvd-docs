@@ -27,6 +27,7 @@ bundle install
 
 
 # serve locally
+cd ./docs
 bundle exec jekyll serve
 
 ```
