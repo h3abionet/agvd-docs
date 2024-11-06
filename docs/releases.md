@@ -7,7 +7,26 @@ heading: Dataset releases and features
 ---
 
 ----
-#### 2024-04-29
+#### 2024-10-06 (AGVD 1.0)
+
+Features:
+ - Filter file upload
+ - Display frequencies in histogram and table
+ - Added dbSNP matches
+ - Export of results to text file
+ - Variant details page with frequency table
+
+Genotypes: 
+ - Joint-called callset 24A 
+
+Annotations:
+ - Externally fetched Cellbase<sup>[\[1\]][ref1]</sup> annotations.
+ - Two sample clustering approaches
+   - Manual assignment of samples to one of 6 African regions based on the sample's country 
+   - Computational assignment samples countries to one of 5 clusters using K-means
+
+----
+#### 2024-04-29 (AGVD 0.9)
 
 Features:
  - Search by MAF, gene name, region, variant ID

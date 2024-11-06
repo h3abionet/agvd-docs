@@ -21,3 +21,9 @@ AGVD's primary objectives are to:
 
 
 The initial release of AGVD reports allele frequencies from a joint called set of ~4000 samples. Future releases will incorporate genotypes from targeted, exome, and additional full genome sequencing, as well as genotyping by arrays. 
+
+
+There are various way to get to know AGVD:
+
+ - [Tutorials](/tutorials)
+ - [FAQ](faq)
