@@ -52,7 +52,14 @@ theme: minima
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
+header_pages:
+  - about.md
+  - map.md
+  - summaries.md
+  - releases.md
+  - faq.md
+  - tutorials.md
+  
 # Silence the SASS deprecation warning 
 # https://github.com/jekyll/minima/issues/709
 sass:
