@@ -1,3 +1,14 @@
 ---
 ---
 @import "{{ site.theme }}";
+
+.page-link {
+    // existing styles for page-link
+
+    &.active {
+    font-weight: bold;
+    color: #007bff; // Change this to your desired highlight color
+    }
+}
+
+  
