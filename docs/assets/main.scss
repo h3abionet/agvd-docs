@@ -1,7 +1,7 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@use "sass:math";
 @import "minima";
 
 .page-link {
@@ -50,7 +50,7 @@ table {
     border-spacing: 0;
 
     th, td {
-      padding: ($spacing-unit / 20) ($spacing-unit / 2);
+      padding: math.div($spacing-unit, 20) math.div($spacing-unit , 2);
     }
 
 }
