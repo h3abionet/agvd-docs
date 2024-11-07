@@ -17,9 +17,22 @@ layout: default
   }
 </style>
 
+
+
+
 <div class="container">
   <h1>404</h1>
 
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
 </div>
+
+
+{% if jekyll.environment == "production" %}
+    <meta http-equiv="refresh" content="0; url='/your-baseurl/'">
+    <script>
+        setTimeout(function() {
+            window.location.href = "/";
+        }, 0);
+    </script>
+{% endif %}
