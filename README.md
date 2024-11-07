@@ -39,6 +39,11 @@ bundle exec jekyll serve
 
 ### Overriding theme defaults
 
+#### Note: 
+ - GitHub Pages use a specific version of minima (currently v2.5.1) listed [here](https://pages.github.com/versions/)
+ - [here](https://github.com/jekyll/minima/tree/v2.5.1?tab=readme-ov-file#minima) are instructions for customising it
+
+
 ```bash 
 # find the installed theme's path eg 'minima'
 bundle info --path minima
