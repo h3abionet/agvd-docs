@@ -3,6 +3,7 @@
 layout: page
 title: Home
 heading: 
+exclude_from_nav: true
 permalink: /
 ---
 
