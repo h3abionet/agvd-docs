@@ -50,7 +50,7 @@ table {
     border-spacing: 0;
 
     th, td {
-      padding: math.div($spacing-unit, 20) math.div($spacing-unit , 2);
+      padding: ($spacing-unit / 20) ($spacing-unit / 2);
     }
 
 }
