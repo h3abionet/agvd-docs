@@ -2,7 +2,7 @@
 
 layout: page
 title: Map
-heading: Map of sample locations
+heading: Sample locations
 # permalink: /map/
 ---
 

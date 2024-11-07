@@ -1,12 +1,12 @@
 ---
 
 layout: page
-title: Datasets
+title: Samples
 heading: Sample Info
 # permalink: /summaries/
 ---
 
-## Count of samples with African ancestry
+### Count of samples with African ancestry
 
 | Country                  |     Count |
 |:-------------------------|----------:|
@@ -31,3 +31,5 @@ heading: Sample Info
 | Tanzania                 |        10 |
 | United States            |        61 |
 | Western Sahara           |         2 |
+|:-------------------------|----------:|
+|                          |      **1658** |

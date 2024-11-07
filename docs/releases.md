@@ -6,6 +6,12 @@ heading: Dataset releases and features
 # permalink: /releases/
 ---
 
+Here we document features added and changes to the AGVD dataset and annotations. 
+
+The intention is for this to be a resource to used when citing the state of AGVD when it was queried. As such it includes details such as features, statistics and annotations for each release version. 
+
+External references (such as Cellbase annotations) are also included with appropriate citations.
+
 ----
 #### 2024-10-06 (AGVD 1.0)
 
