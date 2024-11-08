@@ -19,5 +19,11 @@ Only the cohorts considered to be predominantly of African ancestry were used to
   - It having been filtered out in the joint calling
   - The variant being REF/REF for all of the samples       
 
+----
+#### The variant I'm looking at shows an "AGVD" frequency of zero. Why is it in the data?
+
+- The "AGVD freqeuncy" reported is calculated from samples with African ancestry
+- This would happen if the alt allele was only observed in non African samples in the joint-called data. This can be confirmed by looking at the detailed cluster frequencies.
+
 
 ----
