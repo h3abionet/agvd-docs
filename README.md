@@ -1,18 +1,6 @@
 # agvd-docs
-This site is documentation for the AGVD (African Genomic Variation Database) frontend.
-
-## Note on Tutorials
-Because the tutorials will be updated frequently, we're going edit in Google docs. 
-The steps are:
-1. edit the google doc
-2. download as pdf
-3. copy the pdf to ./docs/tutorials (and rename to short name)
-
-Current tutorials are:
- - [Registering](https://docs.google.com/document/d/1ny2-b-bBUfDJVUTYhIz8yodpiFJMa_g0/edit)
- - [Searching](https://docs.google.com/document/d/11VhAVEPbm2XW04ooc2Hk881-85AVSnVw/edit)
-
-[Full documentation](https://docs.google.com/document/d/197wa3ipdHA8Q_ZU4y2jEHBzFctg8GrXO/edit)
+This site holds documentation for the AGVD (African Genomic Variation Database) frontend.
+It uses github pages, following this tutorial: [Setting up github pages](https://github.com/tomcam/least-github-pages)
 
 ## Jekyll stuff 
 ### setup on a new machine (Ubuntu in this case) WIP
@@ -61,7 +49,25 @@ cp $GEM_HOME/gems/gems/minima-2.5.1/_includes/header.html _includes/
 
 ### References:
 
- - [Setting up github pages](https://github.com/tomcam/least-github-pages)
  - [Leaflet map styles](https://leaflet-extras.github.io/leaflet-providers/preview/)
  - Using the [Stadia](https://client.stadiamaps.com/dashboard/#/property/28053/) API for map tiles
  - [Customizing leaflet](https://leafletjs.com/reference.html)
+
+## Note on AGVD Tutorials
+Because the tutorials will be updated frequently, we're going edit in Google docs. 
+
+Current tutorials are:
+ - [Registering](https://docs.google.com/document/d/1ny2-b-bBUfDJVUTYhIz8yodpiFJMa_g0/edit)
+ - [Searching](https://docs.google.com/document/d/11VhAVEPbm2XW04ooc2Hk881-85AVSnVw/edit)
+
+The steps are:
+1. edit the google doc
+2. download as pdf
+3. copy this pdf to ./docs/tutorials (and rename to short name)
+
+Full documentation [here](https://docs.google.com/document/d/197wa3ipdHA8Q_ZU4y2jEHBzFctg8GrXO/edit)
+
+
+
+
+
